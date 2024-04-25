@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marsod</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mitr&family=Montserrat:ital,wght@0,100;0,400;1,900&family=Pacifico&family=Righteous&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script>
+        $('.carousel').carousel({
+          interval: 2000
+        });
+      </script>
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><a href='#'><img src='./img/IMG_2263.png'/></a></li>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><i class="fa-regular fa-circle-user"></i><a href="./login.html">&nbsp; &nbsp; Login</a></li><br>
+                    <li><i class="fa-solid fa-house"></i><a href="index.html">&nbsp; &nbsp;หน้าแรก</a></li>
+                    <li>&nbsp;<i class="fa-solid fa-percent"></i><a href="./promotion.html">&nbsp; &nbsp;  โปรโมชั่น</a></li>
+                    <li>&nbsp;<i class="fa-solid fa-circle-plus"></i><a href="#">&nbsp;&nbsp;ติดต่อจองแผง</a></li>
+                    <li>&nbsp;<i class="fa-solid fa-book-open"></i><a href="inform.html">&nbsp;&nbsp;แจ้งความประสงค์</a></li>
+                    <li>&nbsp;<i class="fa-solid fa-headset"></i><a href="#">&nbsp; &nbsp;ติดต่อเรา</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
+<!-- ---------------------------------------- -->
+<div class="container-1">
+    <h1>เริ่มต้นการจองพื้นที่ได้แล้ววันนี้</h1>
+    <p>จองแผงที่ใช่ได้ที่ตลาดพันท้ายมาร์เก็ต</p>
+    <p>สามารถจองแผงได้แล้วในตอนนี้ หรือติดต่อเจ้าหน้าที่</p>
+    <p>โทร. 0123456789</p><br>
+</div>
+<!-- ---------------------------------------- -->
+<div class="container-2">
+    <h2>จองแผง</h2>
+    <hr class="line-con-2" width="80%" ></hr>
+</div>
+<div class="container-3">
+    <p>เลือกประเภทที่ต้องการ</p>
+        <select name="pets" id="myDropdown">
+            <option value="op">ตัวเลือก..</option>
+            <option value="pj">ประจำ</option>
+            <option value="kj">ขาจร</option>
+          </select>
+      </div>
+      <!-- ---------------------------------------- -->
+<div class="container-4">
+    <p>เลือกวันที่จองแผง</p>
+    <input type="date" id="birthday" name="birthday">
+    <button class="btn">ค้นหาแผง</button>
+</div>
+<!-- ---------------------------------------- -->
+<div class="container-5"><br>
+    <a href="#"><u>เพิ่มเติม</u></a>
+    <div class="topic-img"><h1>ข้อเสนอโปรโมชั่น</h1></div>
+</div>
+<!-- ---------------------------------------- -->
+<div id="carouselControls" class="carousel slide" data-ride="carousel" >
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="carousel-item">
+        <img class="img-1" src="./img/pig1.jpg">
+        <img class="img-1" src="./img/pig2.jpg">
+        <button class="btn-img-1">คลิกเลย</button>
+        <button class="btn-img-2">คลิกเลย</button>
+      </div>  
+      <div class="carousel-item" id="carousel-item">
+        <img class="img-1" src="./img/pic3.jpg">
+        <img class="img-1" src="./img/pic4.jpg">
+        <button class="btn-img-1">คลิกเลย</button>
+        <button class="btn-img-2">คลิกเลย</button>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+    </div>
+      </div>
+      </div>
+</div>
+</div>
+</body>
+</html>

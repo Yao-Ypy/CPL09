@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mitr&family=Montserrat:ital,wght@0,100;0,400;1,900&family=Pacifico&family=Righteous&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <a href="./login.html"><i class="fa-solid fa-chevron-left"></i></a><h1>ลงทะเบียนบัญชีของคุณ</h1>
+        </div>
+
+        <!-- ---------------------------------------- -->
+        <div class="container">
+            <p>ชื่อ - นามสกุล</p>
+
+        <form action="/action_page.php">
+             <input type="text" id="text" name="name" required><br>
+            
+            </form>
+        </div>
+        <div class="container">
+            <p>มือถือ</p>
+
+        <form action="/action_page.php">
+             
+             <input type="tel" id="phone" name="phone" placeholder="ex.0123456789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+             <small>กรุณาระบุหมายเลขโทรศัพท์มือถือ</small><br><br>
+            </form>
+        </div>
+        <div class="container-1">
+        <p>รหัสผ่าน</p>
+        <form action="/action_page.php">
+        <input type="password" id="pass" name="password" placeholder="รหัสผ่าน" >
+        <br>
+        </form>
+        <br>
+        </div>
+        <div class="container-1">
+            <p>ยืนยันรหัสผ่าน</p>
+            <form action="/action_page.php">
+            <input type="password" id="pass" name="password" placeholder="รหัสผ่าน" >
+            <br>
+            </form>
+            <br>
+            </div>
+<!-- ---------------------------------------- -->
+            <a href="./index.html"><button class="btn">ลงทะเบียน</button></a>
+        </div>
+<!-- ---------------------------------------- -->
+        <div class="reg">
+            <a href="./login.html"><button class="btn-reg">คุณมีบัญชีอยู่แล้วหรือไม่ ? <font color = "#EB7324"> เข้าสู่ระบบ </font></button></a><br>
+            
+        </div>
+<!-- ---------------------------------------- -->
+        <div class="topic">
+            <h1>ด้วยการคลิกที่ปุ่ม "ต่อไป" ด้านบนฉันตกลงกับ <font color = "#EB7324">นโยบาย</font></h1>
+            <h2><font color = "#EB7324">ความเป็นส่วนตัว</font> และ <font color = "#EB7324">ข้อกำหนดและเงื่อนไข</font> ของตลาดพันท้ายมาร์เก็ต</h2>
+        </div>
+
+
+    </header>
+    
+</body>
+</html>
